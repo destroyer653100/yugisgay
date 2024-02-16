@@ -149,8 +149,8 @@ function AB() {
       const iframe = doc.createElement('iframe')
       const style = iframe.style
       const link = doc.createElement('link')
-      const name = localStorage.getItem('name') || 'My Drive - Google Drive'
-      const icon = localStorage.getItem('icon') || 'https://ssl.gstatic.com/docs/doclist/images/drive_2022q3_32dp.png'
+      const name = localStorage.getItem('name') || 'Home | Schoology'
+      const icon = localStorage.getItem('icon') || 'https://schoology.sdmfschools.org/sites/all/themes/schoology_theme/favicon.ico'
       doc.title = name
       link.rel = 'icon'
       link.href = icon
@@ -161,7 +161,7 @@ function AB() {
       style.width = style.height = '100%'
       doc.head.appendChild(link)
       doc.body.appendChild(iframe)
-      location.replace('https://classroom.google.com')
+      location.replace('https://www.nasa.gov/')
     }
   }
 }
