@@ -14,6 +14,7 @@ const config = {
 		hunter: "Dixie696!",
 		Komasanzzz: "Puff",
     FS_BoxTops: "BoxT0ps*",
+	  patelm: "manthan3614"
 	},
   routes: true, // Change this to false if you just want to host a bare server.
   local: true, // Change this to false to disable local assets.
